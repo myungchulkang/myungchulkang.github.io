@@ -20,7 +20,8 @@ tags: GPT-3 OpenAI
 
 ## 논문 한 줄 요약
 
-![total-compute-used](/assets/img/total-compute-used.PNG "total-compute-used")
+![total-compute-used-during-training](/assets/total-compute-used-during-training.PNG)
+
 어마무시한 파라미터(1,750억개)를 가지고 fine-tuning 없이 few-shot learning을 통해 몇몇 NLP task에서 좋은 성능을 보였다.
 
 
@@ -35,7 +36,7 @@ tags: GPT-3 OpenAI
 
 # 1. Introduction
 
-![BERT-and-GPT](/assets/img/BERT-and-GPT.png "BERT와 GPT")
+![bert-and-gpt](/assets/bert-and-gpt.PNG)
 
 **GPT** (Generative Pretrained Transformer)는 Transformer의 Decoder 부분을, **BERT** (Bidirectional Encoder Representations from Transformer)는 Transformer의 Encoder를 사용하고 있기 때문에 그 관계가 쌍둥이 자매와 같다. 실제로 그 발전의 역사를 보면 `ELMO (2018.02) → GPT-1 (2018.05) → BERT (2018.10) → XLNet (2019.07) → GPT-2 (2019.02) → RoBERTa (2019.07) → ALBERT (2019.09) → T5 (2019.10) → ...` 처럼 같은 Transformer에서 출발해서 서로의 성능을  엎치락 뒤치락하면서 발전해왔다. 기나긴 선의의 경쟁 끝에 마침내 이번에는 GPT를 줄곧 연구해온 OpenAI에서 2020년 05월 **GPT-3** 모델을 들고나왔다.
 

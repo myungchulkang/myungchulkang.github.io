@@ -26,49 +26,29 @@ titles:
 key: page-about
 ---
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
+자연어처리(NLP)를 공부하고 만화책을 좋아합니다.
 
-TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+안녕하세요, 노동집약적이고 높은 전문성을 필요로 하는 지식재산 분야에 인공지능(AI) 기술을 적용하여 신속·정확한 특허 처리 시스템 구축을 목표로 하고 있는 석사 과정 학생입니다. 여러 인공지능 기술들 중에서도 특히 자연어 처리(NLP)를 집중적으로 공부하고 있습니다. 항상 열린 마음으로 즐겁게 배우는 중입니다.
 
-```javascript
-(() => console.log('Hello, World!'))();
-```
+## 학력사항
+| 기간 | 내용     |
+|----------------|--------|
+| 2019.02 - 현재 | 인하대학교(본교) 산업경영공학과 석사 3차 재학중 |
+| 2013.03 – 2019.02 | 인하대학교(본교) 산업경영공학과 학사 졸업 |
+| 2010.03 – 2013.02 | 경기도 성남시 보평고등학교 1기 졸업 |
 
-## Features
 
-- Responsive
-- Semantic HTML
-- Skins
-- Highlight Theme
-- Internationalization
-- Search
-- Table of contents
-- Authors
-- Additional styles (alert, tag, image, icon, button, grid, etc)
-- Extensions (audios, videos, slides, demos)
-- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
-- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
-- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/), [Valine](https://valine.js.org/en/))
-- Pageview ([LeanCloud](https://leancloud.cn/))
-- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
-- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
+## 학술대회 및 특허
+- 강명철, 이철기, 이수안, 이우기, “선행기술조사를 위한 딥러닝 언어 모델 기반 특허 문서 분류”, 한국지식재산교육연구학회 2020년 06월
+- Kang, M., Lee, S., & Lee, W. (2020, February). Prior Art Search Using Multi-modal Embedding of Patent Documents. In 2020 IEEE International Conference on Big Data and Smart Computing (BigComp) (pp. 548-550). IEEE.
+- 강명철, 이우기, 라시드, “효과적인 특허 문서 분류를 위한 기법 비교”, 한국정보과학회 KCC 2019년 6월
+- (출원) “적대적 공격이 적용된 차량 번호판을 판별하기 위한 오인식 방지 장치 및 그 방법”,  10-2020-0080772, 2020.07.01
+- (출원) “강화된 차량 번호판 자동탐지 시스템”, 10-2020-0069459, 2020.06.09
 
-## Skins
-
-TeXt has 6 built-in skins, you can also set up your own skin.
-
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg) |
-
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg) |
-
-### Highlight Theme
-
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
-
-| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
-| --- |  --- | --- | --- |  --- |
-| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
+## 수상 경력
+- 한국지식재산교육연구학회 2020 춘계학술대회 우수논문발표상, 2020.06.25
+“선행기술조사를 위한 딥러닝 언어 모델 기반 특허 문서 분류”
+- 제 14회 대학(원)생 지식재산 우수논문 공모전 입선, 한국지식재산연구원, 2019.10.16
+“유사 특허 검색을 위한 인덱싱 방법”
+- 제 13회 대학(원)생 지식재산 우수논문 공모전 장려상, 한국지식재산연구원, 2018.10.17
+“Doc2Vec를 이용한 효과적인 특허 문서 분류”
