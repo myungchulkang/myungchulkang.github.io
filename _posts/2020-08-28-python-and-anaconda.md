@@ -20,7 +20,7 @@ tags: python anaconda
 
 하지만, pandas와 numpy 등 데이터분석에 반드시 활용되는 패키지들을 가지고 있는 anaconda를 설치하는 것을 권장한다.
 
-![python-and-anaconda](/assets/python-and-anaconda_5ccy9hdx7.PNG)
+![python-and-anaconda](/assets/python-and-anaconda.PNG)
 
 ## 패키지 관리
 
@@ -30,9 +30,16 @@ tags: python anaconda
 
 ## 쥬피터 노트북 시작 경로 변경
 
-여러 군데를 찾아봤지만 이렇게 하는 것이 가장 정확했다. [여기](https://m.blog.naver.com/PostView.nhn?blogId=hs_715&logNo=221532738990&proxyReferer=https:%2F%2Fwww.google.com%2F)를 참고했다.
+`jupyter notebook --generate-config`을 하고 생성된 파일 안에서 notebook_dir를 변경하는 등 여러 방법들을 찾아봤지만 다른 문제만 연속적으로 발생할 뿐이였다.
 
-- 요약: cmd 창에서 `jupyter notebook --generate-config`를 입력 후, `C:\Users\계정\.jupyter` 폴더의 `jupyter_notebook_config.py` 파일에 들어가서 `c.NotebookApp.notebook_dir = ''`를 찾는다. 주석처리를 없애고, 원하는 경로를 넣은 후 저장한다. 쥬피터 노트북 파일의 [속성]을 들어가서 [대상(T)]의 맨뒤 `%USERPROFILE%` 를 지우고 확인을 누른다. 그 이후 쥬피터 노트북을 다시 실행하면 지정해준 경로에서 시작된다!
+나는 개인적으로 jupyter notebook 파일의 [속성]에 들어가서 [대상(T)]에서 직접 경로를 추가하는 것이 하는 것이 가장 빠르고 쉬었다.
+
+![jupyter_notebook_path](/assets/jupyter_notebook_path.PNG)
+
+
+- 요약: 위의 그림처럼 그냥 [대상(T)]에 `%USERPROFILE%`를 지우고 해당 경로를 넣으면 된다. 그 이후 쥬피터 노트북을 다시 실행하면 지정해준 경로에서 시작된다! 다만 쥬피터 노트북이 아예 켜지질 않는다면 경로의 백슬래쉬(\\)를 보통 슬래쉬(/)로 바꾸고 시도해보자.
+
+
 
 ## 가상 환경 생성
 작업을 하다보면 여러 패키지들이 충돌나는 경우가 많다. 그러므로 해당 프로젝트를 진행할 때마다 다른 가상 환경을 만들어 주어 관리하는 것이 바람직하다.
@@ -52,4 +59,3 @@ cmd 창에서 다음과 같은 순서로 생성한다.
 - https://dailyheumsi.tistory.com/33
 - http://hleecaster.com/installing-python-anaconda/
 - https://docs.anaconda.com/anaconda/install/uninstall/
-- https://m.blog.naver.com/PostView.nhn?blogId=hs_715&logNo=221532738990&proxyReferer=https:%2F%2Fwww.google.com%2F
