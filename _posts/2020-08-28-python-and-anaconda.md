@@ -1,10 +1,10 @@
 ---
-title: "anaconda 재설치 및 python과 anaconda 차이"
+title: "anaconda 재설치 및 jupyter notebook 시작 경로 변경"
 date: 2020-08-28
 tags: python anaconda
 ---
 
-## 문제점
+## 발생한 문제점
 댓글 데이터 전처리 과정 중에 pykospacing가 import가 안되는 문제가 생기고, 맞춤법 검사기 또한 json 파일 관련 문제가 발생했다..
 또한 커널이 지속적으로 멈춘다...
 
@@ -14,18 +14,30 @@ tags: python anaconda
 
 진행하던 중 anaconda를 설치하면 python을 설치하지 않아도 되나? 하는 궁금증이 생겨 또 다시 검색해보았다.(모든 답은 구글형이 알고 있다.)
 
-[여기서](https://snowdeer.github.io/python/2017/11/07/python-vs-anaconda/) 찾을 수 있었는데, 요약하자면: 환경 변수 충돌 등의 문제가 있을 수 있기 때문에 python과 anaconda 중 하나만 설치하는 것이 바람직하다고 한다.
+그 답은 [여기서](https://snowdeer.github.io/python/2017/11/07/python-vs-anaconda/) 찾을 수 있었다.
+
+- 요약: 환경 변수 충돌 등의 문제가 있을 수 있기 때문에 python과 anaconda 중 하나만 설치하는 것이 바람직하다.
 
 하지만, pandas와 numpy 등 데이터분석에 반드시 활용되는 패키지들을 가지고 있는 anaconda를 설치하는 것을 권장한다.
 
 ![python-and-anaconda](/assets/python-and-anaconda_5ccy9hdx7.PNG)
 
+## 패키지 관리
+
 그 이후 패키지 설치하는데에는 다음과 같은 방법이 있다. [여기](https://dailyheumsi.tistory.com/33)와 [여기](http://hleecaster.com/installing-python-anaconda/).
 
-요약하자면: 가상환경을 만들고 거기에 설치할 때는 `pip install` 든 `conda install`이든 무관하다. `pip3 install`을 하면 전역(base)에 설치되니 `pip install`로 하자.
+- 요약: 가상환경을 만들고 거기에 설치할 때는 `pip install` 든 `conda install`이든 무관하다. `pip3 install`을 하면 전역(base)에 설치되니 `pip install`로 하자.
+
+## 쥬피터 노트북 시작 경로 변경
+
+여러 군데를 찾아봤지만 이렇게 하는 것이 가장 정확했다. [여기](https://m.blog.naver.com/PostView.nhn?blogId=hs_715&logNo=221532738990&proxyReferer=https:%2F%2Fwww.google.com%2F)를 참고했다.
+
+- 요약: cmd 창에서 `jupyter notebook --generate-config`를 입력 후, `C:\Users\계정\.jupyter` 폴더의 `jupyter_notebook_config.py` 파일에 들어가서 `c.NotebookApp.notebook_dir = ''`를 찾는다. 주석처리를 없애고, 원하는 경로를 넣은 후 저장한다. 쥬피터 노트북 파일의 [속성]을 들어가서 [대상(T)]의 맨뒤 `%USERPROFILE%` 를 지우고 확인을 누른다. 그 이후 쥬피터 노트북을 다시 실행하면 지정해준 경로에서 시작된다!
+
 
 ## 출처
 - https://snowdeer.github.io/python/2017/11/07/python-vs-anaconda/
 - https://dailyheumsi.tistory.com/33
 - http://hleecaster.com/installing-python-anaconda/
 - https://docs.anaconda.com/anaconda/install/uninstall/
+- https://m.blog.naver.com/PostView.nhn?blogId=hs_715&logNo=221532738990&proxyReferer=https:%2F%2Fwww.google.com%2F
