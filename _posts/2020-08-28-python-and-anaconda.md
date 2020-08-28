@@ -4,7 +4,7 @@ date: 2020-08-28
 tags: python anaconda
 ---
 
-## 발생한 문제점
+## 커널 멈춤 문제
 댓글 데이터 전처리 과정 중에 pykospacing가 import가 안되는 문제가 생기고, 맞춤법 검사기 또한 json 파일 관련 문제가 발생했다..
 또한 커널이 지속적으로 멈춘다...
 
@@ -33,6 +33,18 @@ tags: python anaconda
 여러 군데를 찾아봤지만 이렇게 하는 것이 가장 정확했다. [여기](https://m.blog.naver.com/PostView.nhn?blogId=hs_715&logNo=221532738990&proxyReferer=https:%2F%2Fwww.google.com%2F)를 참고했다.
 
 - 요약: cmd 창에서 `jupyter notebook --generate-config`를 입력 후, `C:\Users\계정\.jupyter` 폴더의 `jupyter_notebook_config.py` 파일에 들어가서 `c.NotebookApp.notebook_dir = ''`를 찾는다. 주석처리를 없애고, 원하는 경로를 넣은 후 저장한다. 쥬피터 노트북 파일의 [속성]을 들어가서 [대상(T)]의 맨뒤 `%USERPROFILE%` 를 지우고 확인을 누른다. 그 이후 쥬피터 노트북을 다시 실행하면 지정해준 경로에서 시작된다!
+
+## 가상 환경 생성
+작업을 하다보면 여러 패키지들이 충돌나는 경우가 많다. 그러므로 해당 프로젝트를 진행할 때마다 다른 가상 환경을 만들어 주어 관리하는 것이 바람직하다.
+
+cmd 창에서 다음과 같은 순서로 생성한다.
+
+- `conda create --name 프로젝트이름 python=3.7` 파이썬 버전을 경우에 맞게 지정해줘야한다.
+- `conda activate 프로젝트이름`: 만든 가상 환경을 실행한다. 여기까지가 가상환경을 만들어주는 것이고, 쥬피터 노트북에서 활용하기 직접 설정을 바꾸기 위해서는 다음의 과정이 추가적으로 필요하다.
+- `conda install ipkernel`
+- `conda install nb_conda_kernels`
+
+쥬피터 노트북을 다시 확인해보면 `프로젝트이름`으로 새로운 커널(가상 환경)이 추가 되어 있는 것을 볼 수 있다.
 
 
 ## 출처
