@@ -1,5 +1,5 @@
 ---
-title: "anaconda 재설치 및 jupyter notebook 시작 경로 변경"
+title: "🐍anaconda 재설치 및 jupyter notebook 시작 경로 변경"
 date: 2020-08-28
 tags: python anaconda
 ---
