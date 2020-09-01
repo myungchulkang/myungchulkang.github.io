@@ -1,5 +1,5 @@
 ---
-title: "✏️KL-divergence와 Cross-Entropy에 대한 이해"
+title: "[개념정리✏️] KL-divergence와 Cross-Entropy에 대한 이해"
 date: 2020-08-10
 tags: study KL-divergence Cross-Entropy
 ---

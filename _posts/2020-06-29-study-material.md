@@ -3,10 +3,11 @@ title: "😎딥러닝 관련 공부📝"
 date: 2020-06-29
 tags: study deep-learning
 ---
+# 들어가기에 앞서
 
 딥러닝을 공부하면서 정말 많은 도움을 받은 material(유튜브 채널, 블로그, 웹사이트 등)들을 정리해둔다.
 
-자연어처리 관련
+## 자연어처리 관련
 1. ★★★[딥러닝을 이용한 자연어 처리 입문](https://wikidocs.net/book/2155)
 2. [BERT 톺아보기](http://docs.likejazz.com/bert/#fn:fn-2)
 3. [Dissecting BERT Part 1: The Encoder](https://medium.com/dissecting-bert/dissecting-bert-part-1-d3c3d495cdb3)

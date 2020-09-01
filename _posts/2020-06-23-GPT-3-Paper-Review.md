@@ -1,7 +1,7 @@
 ---
-title: "📄Language Models are Few-Shot Learners (GPT-3) 논문 리뷰"
+title: "[논문리뷰📄] Language Models are Few-Shot Learners (GPT-3)"
 date: 2020-06-23
-tags: GPT-3 OpenAI
+tags: GPT-3 OpenAI 논문리뷰
 ---
 
 

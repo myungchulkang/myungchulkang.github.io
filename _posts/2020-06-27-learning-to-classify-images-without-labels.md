@@ -1,7 +1,7 @@
 ---
-title: "📄Learning to Classify Images Without Labels 논문 리뷰"
+title: "[논문리뷰📄] Learning to Classify Images Without Labels"
 date: 2020-06-27
-tags:
+tags: 논문리뷰
 ---
 
 # 들어가기에 앞서
