@@ -27,3 +27,34 @@ tags: code
 
 - 인코딩을 변경하는 방법은 다양하다: 엑셀에서 "데이터 불러오기"에서 변경 / 엑셀에서 "다른 이름으로 저장" / 텍스트 파일에서 직접 인코딩 변경
 - https://teddylee777.github.io/pandas/%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%95%9C%EA%B8%80%EA%B9%A8%EC%A7%90%ED%98%84%EC%83%81-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95
+
+
+## 코랩에서 RuntimeError: CUDA error: device-side assert triggered
+
+### 1. 현상
+
+KcBERT를 fine-tuning 하는 중 예제 코랩 파일에서 데이터셋만 바꿨을 뿐인데 위와 같은 오류가 발생했다.
+
+### 2. 해결 과정
+
+[한글 블로그](https://brstar96.github.io/shoveling/device_error_summary/)를 찾을 수 있었는데, 레이블 시작을 0으로 하는 등 여러가지를 시도했으나 해결하지 못했다.
+
+[여기](https://stackoverflow.com/questions/53268442/pytorch-runtimeerror-cuda-error-device-side-assert-triggered)에서 코랩의 runtime type을 None으로 하면 실제 어떤 것이 문제가 되는지 알 수 있다고 한다.
+
+> Switch Hardware Accelerator Type to `None` under `Runtime`->`Change Runtime Type`. This should give you a more meaningful error message.
+
+`None`으로 변경하고 다시 돌려보니 에러가 달라져 있었다.
+
+`IndexError: Target 2 is out of bounds.`
+
+그래서 곧바로 해당 에러의 원인을 찾아보았다.
+
+[여기](https://discuss.pytorch.org/t/indexerror-target-2-is-out-of-bounds/69614)를 살펴보니 target 크기의 문제인 것 같다.
+
+(작성&해결 중)
+
+
+### 3. 결론과 출처
+
+- https://stackoverflow.com/questions/53268442/pytorch-runtimeerror-cuda-error-device-side-assert-triggere
+- https://discuss.pytorch.org/t/indexerror-target-2-is-out-of-bounds/69614
