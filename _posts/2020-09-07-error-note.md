@@ -51,10 +51,27 @@ KcBERT를 fine-tuning 하는 중 예제 코랩 파일에서 데이터셋만 바�
 
 [여기](https://discuss.pytorch.org/t/indexerror-target-2-is-out-of-bounds/69614)를 살펴보니 target 크기의 문제인 것 같다.
 
-(작성&해결 중)
+[KcBERT 깃허브](https://github.com/Beomi/KcBERT/issues/3)에 이슈로 여쭤보니 `BertForSequenceClassification`은 기본적으로 `num_label=2` 라는 옵션을 가지고 있기 때문에, `num_label=5`로 지정해줘야한다고 한다.
 
+해당 옵션을 적절히 추가한 후 만난 에러는 다음과 같다.
+
+`RuntimeError: Error(s) in loading state_dict for BertForSequenceClassification`
+
+이번에도 검색해보자. 사실 이건 다른 일과 동시에 하다보니 어떻게 해결했는지 까먹었다. ~~미래의 나, 미안~~ 아마도 metric가 default 값인 binary로 설정되어 있어서, 적절하게 바꿔주니 적어도 위의 에러는 사라졌던 것 같다 ㅎㅎ
+
+그러자 또 다른 에러가 찾아옴..
+
+`RuntimeError: DataLoader worker (pid 1619) is killed by signal: Killed.`
+
+[여기](https://github.com/pytorch/pytorch/issues/8976)에서 해답을 찾을 수 있었다.
+
+> You can try running with num_workers=0 and see if it gives you a better error (as it doesn't use subprocesses).
+
+이렇게 `num_workers=0`으로 세팅하니 드디어 학습이 시작되었다!! 하지만 이게 과연 multi processing 입장에서 좋은 방법인지는 모르겠다. 우선 제한된 시간이기 때문에 빠르게 넘어가자!
 
 ### 3. 결론과 출처
 
 - https://stackoverflow.com/questions/53268442/pytorch-runtimeerror-cuda-error-device-side-assert-triggere
 - https://discuss.pytorch.org/t/indexerror-target-2-is-out-of-bounds/69614
+- https://github.com/Beomi/KcBERT/issues/3
+- https://github.com/pytorch/pytorch/issues/8976
