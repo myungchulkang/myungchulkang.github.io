@@ -51,7 +51,8 @@ cmd 창에서 다음과 같은 순서로 생성한다.
 - `conda install ipkernel`
 - `conda install nb_conda_kernels`
 
-쥬피터 노트북을 다시 확인해보면 `프로젝트이름`으로 새로운 커널(가상 환경)이 추가 되어 있는 것을 볼 수 있다.
+쥬피터 노트북을 다시 확인해보면 `프로젝트이름`으로 새로운 커널(가상 환경)이 추가 되어 있는 것을 볼 수 있다. 여기까지도 해도 보이지 않는다면 다음을 실행한다.
+- `python -m ipykernel install --user --name 가상환경이름 --display-name 보여지는이름`
 
 
 ## 출처
