@@ -14,27 +14,27 @@ tags: 한국어 NLP BERT 데이터셋
 
 ## Ⅰ. 한국어 BERT 모델
 
-- KorBERT (ETRI + Saltlux) | http://aiopen.etri.re.kr/service_dataset.php
-- KoBERT (SKT) | https://github.com/SKTBrain/KoBERT
-- KcBERT | https://github.com/Beomi/KcBERT
-- HanBERT (TwoBlockAI) | https://github.com/monologg/HanBert-Transformers
-- KoELECTRA | https://github.com/monologg/KoELECTRA/
+- KorBERT (ETRI + Saltlux)  http://aiopen.etri.re.kr/service_dataset.php
+- KoBERT (SKT)  https://github.com/SKTBrain/KoBERT
+- KcBERT  https://github.com/Beomi/KcBERT
+- HanBERT (TwoBlockAI)  https://github.com/monologg/HanBert-Transformers
+- KoELECTRA  https://github.com/monologg/KoELECTRA/
 
 
 ## Ⅱ. 한국어 데이터셋
 
-- 한국어 욕설 데이터 | https://github.com/kocohub/korean-hate-speech
-- 모두의 말뭉치 | https://corpus.korean.go.kr/
-- 한국어 데이터셋 모음 | https://github.com/songys/AwesomeKorean_Data
+- 한국어 욕설 데이터  https://github.com/kocohub/korean-hate-speech
+- 모두의 말뭉치  https://corpus.korean.go.kr/
+- 한국어 데이터셋 모음  https://github.com/songys/AwesomeKorean_Data
 
 ## Ⅲ. 한국어 처리
 
-- 띄어쓰기 | https://github.com/haven-jeon/PyKoSpacing
-- 맞춤법 교정 | https://github.com/ssut/py-hanspell
+- 띄어쓰기  https://github.com/haven-jeon/PyKoSpacing
+- 맞춤법 교정  https://github.com/ssut/py-hanspell
 -
 
 ## Ⅳ. 한국어 처리 관련 멋진 개발자분들
 
-- Hyunjoong Kim 님 (lovit) | https://github.com/lovit
-- 송영숙 님 | https://github.com/songys
-- Jangwon Park (monologg) | https://github.com/monologg
+- Hyunjoong Kim 님 (lovit)  https://github.com/lovit
+- 송영숙 님  https://github.com/songys
+- Jangwon Park (monologg)  https://github.com/monologg
