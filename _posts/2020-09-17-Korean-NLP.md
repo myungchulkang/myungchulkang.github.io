@@ -14,10 +14,10 @@ tags: 한국어 NLP BERT 데이터셋
 
 ## Ⅰ. 한국어 BERT 모델
 
-- KorBERT | http://aiopen.etri.re.kr/service_dataset.php
-- KoBERT | https://github.com/SKTBrain/KoBERT
+- KorBERT (ETRI + Saltlux) | http://aiopen.etri.re.kr/service_dataset.php
+- KoBERT (SKT) | https://github.com/SKTBrain/KoBERT
 - KcBERT | https://github.com/Beomi/KcBERT
-- HanBERT | https://github.com/monologg/HanBert-Transformers
+- HanBERT (TwoBlockAI) | https://github.com/monologg/HanBert-Transformers
 - KoELECTRA | https://github.com/monologg/KoELECTRA/
 
 
