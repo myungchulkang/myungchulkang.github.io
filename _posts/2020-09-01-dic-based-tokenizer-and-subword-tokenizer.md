@@ -7,4 +7,6 @@ tags: tokenizer
 
 이번 포스트에서는 토큰나이져에 대해 알아보자.
 
+세미나 자료 확인 LangCon
+
 ## 토크나이저(tokenizer)란?
