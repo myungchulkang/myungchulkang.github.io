@@ -39,10 +39,13 @@ key: page-about
 ## 프로젝트
 - AI 의정 시스템 구축 (NLP 기반 민심 분석)
 
-## 학술대회 및 특허
+## 학술대회
+- Kang, D. M., Lee, C. C., Lee, S., & Lee, W. (2020, August). Patent prior art search using deep learning language model. In Proceedings of the 24th Symposium on International Database Engineering & Applications (pp. 1-5).
 - 강명철, 이철기, 이수안, 이우기, “선행기술조사를 위한 딥러닝 언어 모델 기반 특허 문서 분류”, 한국지식재산교육연구학회 2020년 06월
 - Kang, M., Lee, S., & Lee, W. (2020, February). Prior Art Search Using Multi-modal Embedding of Patent Documents. In 2020 IEEE International Conference on Big Data and Smart Computing (BigComp) (pp. 548-550). IEEE.
 - 강명철, 이우기, 라시드, “효과적인 특허 문서 분류를 위한 기법 비교”, 한국정보과학회 KCC 2019년 6월
+
+## 특허
 - (출원) “적대적 공격이 적용된 차량 번호판을 판별하기 위한 오인식 방지 장치 및 그 방법”,  10-2020-0080772, 2020.07.01
 - (출원) “강화된 차량 번호판 자동탐지 시스템”, 10-2020-0069459, 2020.06.09
 
