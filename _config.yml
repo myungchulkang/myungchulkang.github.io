@@ -20,7 +20,7 @@ text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : 널리 퍼져있는 지식의 티끌을 모아 저만의 태산을 만드는 중입니다.
+title   : 지식의 티끌을 모아둔 태산
 description: > # this means to ignore newlines until "Language & timezone"
   널리 퍼져있는 지식의 티끌을 모아 저만의 태산을 만드는 중입니다.
 
