@@ -1,7 +1,7 @@
 ---
-title: "[개념정리✏️] 사전 기반 tokenizer Vs. Subword tokenizer"
+title: "사전 기반 tokenizer Vs. Subword tokenizer"
 date: 2020-09-01
-tags: tokenizer
+tags: tokenizer 개념정리
 ---
 ## 들어가기에 앞서
 

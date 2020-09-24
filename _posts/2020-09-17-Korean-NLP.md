@@ -1,5 +1,5 @@
 ---
-title: "[코딩정복🎮] 한국어 NLP 데이터셋과 언어모델(BERT)"
+title: "한국어 NLP 데이터셋과 언어모델(BERT)"
 date: 2020-09-17
 tags: 한국어 NLP BERT 데이터셋
 ---

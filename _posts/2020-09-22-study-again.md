@@ -1,7 +1,7 @@
 ---
-title: "[개념정리✏️] 다시 공부할 것 모음 "
+title: "다시 공부할 것 모음 "
 date: 2020-09-22
-tags:
+tags: 개념정리
 ---
 
 ## 들어가기에 앞서
@@ -9,3 +9,7 @@ tags:
 
 
 - Graph ranking algorithm. PageRank and HITS https://lovit.github.io/machine%20learning/2018/04/16/pagerank_and_hits/
+
+- Entropy, Cross-entropy and KL-divergence https://1souljo.github.io/study/2018/02/19/entropy/
+
+- 기계학습 알고리즘 중, 좀 더 공부가 필요한 것들:  `HMM(Hidden Markov Model)`, `조건부 랜덤 필드(Conditional Random Field)`, `나이브 베이즈(Naive Bayes) 네트워크` 등
