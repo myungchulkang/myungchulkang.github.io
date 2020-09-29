@@ -26,6 +26,8 @@ titles:
 key: page-about
 ---
 
+<center><img src="/assets/images/KoreanBERT.png" width="300" height="330"></center>
+
 자연어처리(NLP)를 공부하고 만화책을 좋아합니다.
 
 안녕하세요, 노동집약적이고 높은 전문성을 필요로 하는 지식재산 분야에 인공지능(AI) 기술을 적용하여 신속·정확한 특허 처리 시스템 구축을 목표로 하고 있는 석사 과정 학생입니다. 여러 인공지능 기술들 중에서도 특히 자연어 처리(NLP)를 집중적으로 공부하고 있습니다. 항상 열린 마음으로 즐겁게 배우는 중입니다.
@@ -34,10 +36,16 @@ key: page-about
 
 2019.02 ~ 현재 | 인하대학교 산업경영공학과 석사 4차 재학중
 2013.03 ~ 2019.02 | 인하대학교 산업경영공학과 학사 졸업
-2010.03 ~ 2013.02 | 경기도 성남시 보평고등학교 1기 졸업
 
 ## 프로젝트
-- AI 의정 시스템 구축 (NLP 기반 민심 분석)
+#### (2020.07 ~ 2020.09) AI 의정 시스템 구축 프로젝트
+- 기사 댓글과 기사 내용을 이용하여 특정 기간의 민심을 분석하는 프로젝트를 진행했습니다.
+
+- 스크래핑한 댓글 데이터를 전처리(특수기호 제거, 띄어쓰기 교정, 맞춤법 교정 등)하고 감성 사전을 이용하여 직접 생성한 데이터셋을 이용하여 KcBERT를 fine-tuning 하였습니다.
+
+- 이후 Flask, Dash 등을 이용하여 웹 시스템에 접속한 사용자가 새로운 키워드와 기간 등을 설정하여 분석 결과를 시각적으로 확인할 수 있게 하였습니다.
+
+- 하나의 웹 서비스를 제공하는 전체 과정을 경험하였습니다.
 
 ## 학술대회
 - Kang, D. M., Lee, C. C., Lee, S., & Lee, W. (2020, August). Patent prior art search using deep learning language model. In Proceedings of the 24th Symposium on International Database Engineering & Applications (pp. 1-5).
