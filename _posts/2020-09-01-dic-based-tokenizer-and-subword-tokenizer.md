@@ -14,7 +14,7 @@ tags: tokenizer 개념정리
 
 문장을 작은 단위로 쪼개는 것을 토큰화 한다고 하며 이를 수행할때 사용하는 것을 토크나이저라고 한다.
 
-![토크나이저비교](/assets/토크나이저비교.PNG)
+![토크나이저비교](/assets/images/토크나이저비교.PNG)
 
 기본적으로 '시전 기반'과 'Subword 기반' 토크나이저가 있고 차이점은 다음과 같다. 두 종류의 토크나이저는 각자의 장단점도. 사용 목적도 서로 다르다.
 
@@ -24,7 +24,7 @@ tags: tokenizer 개념정리
 
 Subword 토크나이저는 [huggingface](https://huggingface.co/transformers/master/tokenizer_summary.html#)에서 제공하는 네 가지의 종류가 있다.
 
-![huggingface에서 제공해주는 토크나이저](/assets/huggingface에서%20제공해주는%20토크나이저.PNG)
+![huggingface에서 제공해주는 토크나이저](/assets/images/huggingface에서%20제공해주는%20토크나이저.PNG)
 
 ## 출처
 

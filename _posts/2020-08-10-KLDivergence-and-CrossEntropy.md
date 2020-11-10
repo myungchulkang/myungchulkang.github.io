@@ -13,6 +13,8 @@ KL-divergence와 entropy 간의 관계를 살펴보자~ 여러 소스를 통해 
 ![cross-entropy-1](/assets/images/cross-entropy-1.jpg)
 ![cross-entropy-2](/assets/images/cross-entropy-2.jpg)
 ![cross-entropy-3](/assets/images/cross-entropy-3.jpg)
+![정보이론-1](/assets/images/정보이론-1.png)
+![정보이론-2](/assets/images/정보이론-2.png)
 
 ## 출처
 - https://reniew.github.io/17/
